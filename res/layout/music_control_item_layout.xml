@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/equips_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_sixteen" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_musiccd" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_fourty_eight"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/music_power"
+                android:tag="@string/tag_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/remotetypeshutdown" />
+
+            <ImageButton
+                android:id="@+id/music_last"
+                android:tag="@string/tag_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/remotetypeprev" />
+
+            <ImageButton
+                android:id="@+id/music_play"
+                android:tag="@string/tag_play"
+                android:layout_width="@dimen/dp_sixty"
+                android:layout_height="@dimen/dp_sixty"
+                android:background="@drawable/remotetypeplay"
+                android:src="@null" />
+
+            <ImageButton
+                android:id="@+id/music_pause"
+                android:tag="@string/tag_pause"
+                android:layout_width="@dimen/dp_sixty"
+                android:layout_height="@dimen/dp_sixty"
+                android:background="@drawable/remotetypepause"
+                android:src="@null" />
+
+            <ImageButton
+                android:id="@+id/music_next"
+                android:tag="@string/tag_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/remotetypenext" />
+        </LinearLayout>
+
+        <!-- show  the scrollview -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_fourty_eight"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_ten"
+            android:layout_marginRight="@dimen/dp_ten" >
+            
+                   <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1.0"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_voice_karaoke" >
+
+                    <ImageButton
+                        android:id="@+id/btn_music_voldel"
+                        android:tag="@string/tag_voldel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:src="@drawable/remotetypevolumedown" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/text_voice" />
+
+                    <ImageButton
+                        android:id="@+id/btn_music_voladd"
+                        android:tag="@string/tag_voladd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:src="@drawable/remotetypevolumeup" />
+                </RelativeLayout>
+
+            <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/samll_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_volume_reduction" />
+
+                <SeekBar
+                    android:id="@+id/music_seek"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progressDrawable="@drawable/seekbar_style"
+                    android:thumb="@drawable/btn_toggle2x" />
+                
+                             android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@id/large_voice"
+                    android:layout_toRightOf="@id/samll_voice"
+                
+                <ImageView
+                    android:id="@+id/large_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_volume_add" />
+
+            </LinearLayout>
+ -->
+            <ImageButton
+                android:id="@+id/music_source"
+                android:tag="@string/tag_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_sixteen"
+                android:background="@null"
+                android:src="@drawable/icon_yinyuan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_seventy_two" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/equips_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_sixteen" >
+
+        <ImageButton
+            android:id="@+id/heat_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/remotetypeshutdown"
+            android:tag="@string/tag_power" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/heat_tempdel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:src="@drawable/btn_temperature_left"
+                android:tag="@string/tag_tempdel" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:src="@drawable/btn_temperature_middle" />
+
+            <ImageButton
+                android:id="@+id/heat_tempadd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:src="@drawable/btn_temperature_right"
+                android:tag="@string/tag_tempadd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/dp_founty_two"
+            android:layout_weight="1.0"
+            android:paddingLeft="@dimen/dp_twenve"
+            android:paddingRight="@dimen/dp_twenve" >
+
+            <ImageButton
+                android:id="@+id/heat_18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:src="@drawable/btn_18"
+                android:tag="@string/tag_18" />
+
+            <ImageButton
+                android:id="@+id/heat_20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:src="@drawable/btn_20"
+                android:tag="@string/tag_20" />
+
+            <ImageButton
+                android:id="@+id/heat_22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:src="@drawable/btn_22"
+                android:tag="@string/tag_22" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/dp_sixteen"
+            android:layout_weight="1.0"
+            android:paddingLeft="@dimen/dp_twenve"
+            android:paddingRight="@dimen/dp_twenve" >
+
+            <ImageButton
+                android:id="@+id/heat_24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:src="@drawable/btn_24"
+                android:tag="@string/tag_24" />
+
+            <ImageButton
+                android:id="@+id/heat_26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:src="@drawable/btn_26"
+                android:tag="@string/tag_26" />
+
+            <ImageButton
+                android:id="@+id/heat_28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:src="@drawable/btn_28"
+                android:tag="@string/tag_28" />
+        </LinearLayout>
+        <!-- show  the scrollview -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_seventy_two" />
+    </LinearLayout>
+
+</ScrollView>

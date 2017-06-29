@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_shape_white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_duplicate"
+        android:textSize="@dimen/sp_sixteen"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/dialog_input"
+        android:layout_margin="@dimen/dp_sixteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_sixteen"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_fourty_eight"
+            android:layout_marginRight="@dimen/dp_sixteen"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape_grey"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_sixteen" />
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_fourty_eight"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape_green"
+            android:text="@string/sure"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_sixteen" />
+    </LinearLayout>
+
+</LinearLayout>

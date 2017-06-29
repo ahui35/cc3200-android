@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- px -->
+    <dimen name="px_one">1px</dimen>
+
+    <!-- dp -->
+    <dimen name="dp_zero">0dp</dimen>
+     <dimen name="dp_twenve">12dp</dimen>
+    <dimen name="dp_sixteen">16dp</dimen>
+    <dimen name="dp_fourty_eight">48dp</dimen>
+    <dimen name="dp_two">2dp</dimen>
+    <dimen name="dp_four">4dp</dimen>
+    <dimen name="dp_ten">10dp</dimen>
+    <dimen name="dp_fifty_six">76dp</dimen>
+    <dimen name="dp_twenty_four">24dp</dimen>
+    <dimen name="dp_thirty_six">36dp</dimen>
+    <dimen name="dp_seventy_two">72dp</dimen>
+    <dimen name="dp_enghty_two">82dp</dimen>
+    <dimen name="dp_play_control_panel_height">260dp</dimen>
+    <dimen name="dp_play_control_height">175dp</dimen>
+    <dimen name="dp_founty_two">42dp</dimen>
+    <dimen name="dp_twenty_two">22dp</dimen>
+    <dimen name="dp_twenty_one">21dp</dimen>
+    <dimen name="dp_six">6dp</dimen>
+    <dimen name="dp_sixty">60dp</dimen>
+    <dimen name="dp_fifty_four">54dp</dimen>
+    
+
+    <!-- sp -->
+    <dimen name="sp_sixteen">16sp</dimen>
+</resources>

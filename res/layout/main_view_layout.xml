@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/main_toolbar"
+        layout="@layout/main_view_common_actionbar_layout" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_toolbar" >
+
+        <!--
+             <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_login"
+            android:paddingTop="@dimen/dp_fourty_eight" >
+        -->
+
+        <FrameLayout
+            android:id="@+id/main_view_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_music">
+        </FrameLayout>
+        <!-- </ScrollView> -->
+
+        <ImageButton
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_more" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_footer_mune" />
+
+       <HorizontalScrollView
+            android:id="@+id/scr_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/dp_six"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/scenes_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              
+                android:orientation="horizontal" />
+        </HorizontalScrollView>
+    </FrameLayout>
+
+</RelativeLayout>

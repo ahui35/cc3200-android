@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sursoft_projects/!svn/ver/1511/MyFace/res/anim
+END
+anim_dialog_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sursoft_projects/!svn/ver/1355/MyFace/res/anim/anim_dialog_show.xml
+END
+popshow_anim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sursoft_projects/!svn/ver/1511/MyFace/res/anim/popshow_anim.xml
+END
+anim_dialog_hide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sursoft_projects/!svn/ver/1300/MyFace/res/anim/anim_dialog_hide.xml
+END
+frame_meituan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sursoft_projects/!svn/ver/1300/MyFace/res/anim/frame_meituan.xml
+END
+pophidden_anim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sursoft_projects/!svn/ver/1511/MyFace/res/anim/pophidden_anim.xml
+END

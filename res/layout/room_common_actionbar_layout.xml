@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/room_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_fourty_eight"
+    android:background="@drawable/navbar"
+    android:padding="@dimen/dp_zero"
+    app:contentInsetStart="@dimen/dp_zero" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/choose_room"
+            android:textSize="@dimen/sp_sixteen"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_choose_floor"
+            android:layout_width="@dimen/dp_fifty_six"
+            android:layout_height="@dimen/dp_thirty_six"
+            android:layout_alignParentRight="true"
+            android:text="@string/one_floor"
+            android:textSize="@dimen/sp_sixteen"
+            android:textColor="@android:color/white" 
+            android:layout_marginRight="@dimen/dp_sixteen"
+            android:background="@drawable/button_shape_white" />
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

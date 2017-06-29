@@ -1,0 +1,130 @@
+<resources>
+
+    <string name="app_name">天工智能</string>
+    <string name="username">用户账号</string>
+    <string name="passwd">登录密码</string>
+    <string name="lan">内网</string>
+    <string name="outer_net">外网</string>
+    <string name="login">登录</string>
+    <string name="copy_right">Copy Right智能天工版权所有</string>
+    <string name="input_name_passwd">请输入用户名或密码</string>
+    <string name="choose_room">选择房间</string>
+    <string name="cancel">取消</string>
+    <string name="one_floor">1楼</string>
+    <string name="ip">显示设备ip地址</string>
+    <string name="ddns">显示设备域名地址</string>
+    <string name="update_mach">配置更新</string>
+    <string name="version">版本信息</string>
+    <string name="setting">设置</string>
+    <string name="sure">确定</string>
+    <string name="config_ip">配置IP地址和域名</string>
+    <string name="config_ddns">配置域名</string>
+    <string name="update">更新</string>
+    <string name="config_update_server">配置更新服务器</string>
+    <string name="input_username_passwd">请输入用户名或密码</string>
+    <string name="login_fail">登录失败</string>
+    <string name="op_fail">操作失败</string>
+    <string name="op_success">操作成功</string>
+    <string name="opt_overtime">操作超时:%1$s</string>
+    <string name="config_ip">请配置IP地址</string>
+    <string name="update_error">更新出错了，请检查输入的IP地址是否正确</string>
+    <string name="hint_scene">是否启动该情景模式?</string>
+    <string name="update_success">更新成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="net_check">请检查网络设置</string>
+    <string name="db_fail">获取数据库失败，请在设置中更新数据库</string>
+    <!-- opt -->
+    <string name="tag_power">power</string>
+    <string name="tag_up">up</string>
+    <string name="tag_down">down</string>
+    <string name="tag_left">left</string>
+    <string name="tag_right">right</string>
+    <string name="tag_enter">enter</string>
+    <string name="tag_return">return</string>
+    <string name="tag_menu">menu</string>
+    <string name="tag_voladd">vol+</string>
+    <string name="tag_voldel">vol-</string>
+    <string name="tag_volmute">mute</string>
+    <string name="tag_play">play</string>
+    <string name="tag_stop">stop</string>
+    <string name="tag_pause">pause</string>
+    <string name="tag_backward">backward</string>
+    <string name="tag_forward">forward</string>
+    <string name="tag_last">last</string>
+    <string name="tag_next">next</string>
+    <string name="tag_subtitle">subtitle</string>
+    <string name="tag_language">language</string>
+    <string name="tag_eject">eject</string>
+    <string name="tag_home">home</string>
+    <string name="tag_source">source</string>
+    <string name="tag_display">display</string>
+    <string name="tag_pop">pop</string>
+
+    <!-- opt 机顶盒 -->
+    <string name="tag_power1">power1</string>
+    <string name="tag_padd">p+</string>
+    <string name="tag_pdel">p-</string>
+    <string name="tag_0">0</string>
+    <string name="tag_1">1</string>
+    <string name="tag_2">2</string>
+    <string name="tag_3">3</string>
+    <string name="tag_4">4</string>
+    <string name="tag_5">5</string>
+    <string name="tag_6">6</string>
+    <string name="tag_7">7</string>
+    <string name="tag_8">8</string>
+    <string name="tag_9">9</string>
+    <string name="tag_separator">separator</string>
+
+    <!-- opt 点歌机 -->
+    <string name="tag_lr">LR</string>
+    <string name="tag_past">past</string>
+    <string name="tag_list">list</string>
+    <string name="tag_repeat">repeat</string>
+    <string name="tag_del">del</string>
+    <string name="tag_insert">insert</string>
+    
+    
+    <!-- opt 功放 -->
+    <string name="tag_soundeffect">soundeffect</string>
+    
+    
+    <!-- opt 投影仪 -->
+    <string name="tag_on">on</string>
+    <string name="tag_off">off</string>
+    <string name="tag_hdmi1">hdmi1</string>
+    <string name="tag_hdmi2">hdmi2</string>
+
+    
+    <!-- opt 地暖 -->
+    <string name="tag_tempadd">temp+</string>
+    <string name="tag_tempdel">temp-</string>
+    <string name="tag_18">18c</string>
+    <string name="tag_20">20c</string>
+    <string name="tag_22">22c</string>
+    <string name="tag_24">24c</string>
+    <string name="tag_26">26c</string>
+    <string name="tag_28">28c</string>
+    
+    
+    <!-- opt 遥控空调 -->
+    <string name="tag_cool">cool</string>
+    <string name="tag_heat">heat</string>
+    <string name="tag_dry">dry</string>
+    <string name="tag_fan">fan</string>
+    <string name="tag_fspeed_1">fspeed-l</string>
+    <string name="tag_fspeed_m">fspeed-m</string>
+    <string name="tag_fspeed_h">fspeed-h</string>
+    <string name="tag_fspeed_a">fspeed-a</string>
+    <string name="tag_swing_h">swing-h</string>
+    <string name="tag_swing_v">swing-v</string>
+    <string name="tag_swing_a">swing-a</string>
+     <string name="tag_30">30c</string>
+    
+     
+     <!-- opt 中央空调 -->
+    <string name="tag_mode">mode</string>
+    <string name="tag_fspeed">fspeed</string>
+    <string name="tag_swing">swing</string>
+
+</resources>
